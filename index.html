@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio|Trilha 1 HTML</title>
+</head>
+<body style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+    <h1 style="text-align: center;"  id="inicio">#Trilha1| Primeiros passos com HTML</h1>
+    <hr>
+    <h3>Indice<sup>*</sup></h3>
+    
+    <ul style="font-family:Georgia, 'Times New Roman', Times, serif;"><strong>
+        <li><a href="#ferramentasUtilizadas"> Ferramentas Utilizadas</a></li>
+        <li><a href="#inspetorElementos"> Inspetor de Elementos</a></li>
+        <li><a href="#estruturaHtml"> Estrutura básica do HTML</a></li>
+        <li><a href="#tags"> Falando sobre Tags</a></li>
+        <li><a href="#atributosTags"> Atributos das tags</a></li>
+        <li><a href="#textos"> Textos</a></li>
+        <li><a href="#listas"> Listas Ordenadas e Não ordenadas</a></li>
+        <li><a href="#links"> Links</a></li>
+    </strong></ul>
+    <a href="https://www.dio.me/" target="_blank"> <b> <blockquote style="text-align:right;">| <u>Digital innovation one</u></blockquote></a></b>
+    <hr>
+
+    <h2 id="ferramentasUtilizadas">Ferramentas Utilizadas</h2>
+
+    <p style="font-size: 18px;">Para o uso do HTML se usa duas ferramentas simples, um editor de texto seja ele bloco de notas, notepad e o principal e mais usado, VsCode e o navegador seja ele chrome, mozilla firefox, Opera, Microsoft edge, Safari etc...</p>
+    
+    <h2 id="inspetorElementos"> Inspetor de Elementos</h2>
+    <p>O inspetor de elementos é utilizado no navegador para visualizar as linhas de código do html e saber em qual posição se trata cada uma. </p>
+
+    <h2 id="estruturaHtml">Estrutura básica do HTML</h2>
+
+    <p>Inicializando com HTML criamos uma pasta que por padrão e para melhor definir a página principal chamamos de <b>index.html</b>
+    e todo html consiste em <b>head</b> que é o cabeçalho da página e temos o <b>body</b> que define o corpo da página e também o <b>title</b>
+    que altera o nome da página exibido na aba do navegador.</p>
+
+    <h2 id="tags">Falando sobre Tags</h2>
+    <p> As tags são os elementos que compõe a principal esfera do HTML citando algumas delas
+        <ul style="list-style: none">
+            <li> <b>HTML</b> indicando que aquilo é uma página Html</li>
+            <li> <b>Head</b> é "o que" pré carrega antes de exibir para o usuário nas demais tags</li>
+            <li> <b>Body</b> indica o corpo da página</li>
+        </ul>
+        Existem inúmeras tags no html e a escrita é exibida por <b> < i > < /i > </b> contendo simbolos de mais (>) ou de menos (<) e fechando com outra identica porém com uma ( / ) indicando o final daquela tag
+        essa tag <b>I</b> por exemplo transforma o que estiver escrito dentro dela em itálico exemplo <b><i>Texto em Itálico</i></b>.
+    </p>
+
+    <h2 id="atributosTags">Atributos das tags</h2>
+
+    <p> No HTML existem inúmeros atributos para diversas tags, mas citando os mais utilizados vamos começar pelo <b>Id</b>. O id é um atributo de <i>"Identificação" ele denomina um caminho para aquela tag com o nome inserido em seu conteúdo exemplo: 
+        <b>id="qualquerNome" </b>; <br>
+        <br> Temos também o atributo <b>Style</b> claro mais usado no css porém ainda traz algumas funcionalidades no html exemplo: <br>
+        <b>Style="color: Red;"</b> 
+        <b style="color:tomato ;">Style="color: Red;"</b> <br><br>
+        Outro atributo interessante é o <b>Input</b> ele exibe uma caixa de texto possibilitando uma escrita dentro, exemplo: <br>
+        <input type="text"><br><br>
+        Para concluir porém não é o ultimo atributo, temos o <b>Img</b> que acrescenta uma imagem a página exemplo: <b>img src=" <i>Link da imagem "</i></b> <br> 
+        <img width="100" src="https://marceloicampos.github.io/site-hello-world/imagens/logo-html5-pequeno.png" alt="Icone HTML">
+    </i></p>
+
+    
+    <h2 id="textos">Textos</h2>
+    <p>Para exibição de texto no html temos as tags de <b>h1</b> a <b>h6</b> alterando o tamanho da fonte conforme muda-se o valor do H
+    Temos também a tag <b>P</b> que simboliza parágrafo no qual pula uma linha e inicia-se um novo parágrafo, a tag <b>blockquote</b>
+    adiciona uma citação centralizando o texto abaixo do anterior, temos também a tag <b>strong</b> que transforma aquele texto ou palavra em negrito
+</p>
+
+    <h2 id="listas">Listas Ordenadas e não ordenadas</h2>
+    <p>
+        No HTML temos dois tipos de listas, as ordenadas e as não ordenadas. As ordenadas que no ingles <i>"Ordered list"</i> utilizamos a tag <b>ol</b> que exibe uma lista de forma enumerada exemplo:  
+        <ol>
+            <li>"Ordered List"</li>
+            <li>"Ordered List"</li>
+        </ol>
+        Já listas <b>não</b> ordenadas ou <i>"list unordered"</i> elas possuem marcações no começo da escrita de cada linha e assim como o nome diz ela não segue uma ordem, exemplo:
+        <ul>
+            <li>"Ordered List"</li>
+            <li>"Ordered List"</li>
+        </ul>
+    </p>
+
+    <h2 id="links">Links</h2>
+    <p>Fazer conexão a outros sites ou "linkar" criar links pra isso no HTML usammos a tag <b>a</b> de âncora, porém ao clicar no link ele abre na mesma aba e então temos alguns atributos adicionais caso seja necessario essa mudança
+    uma delas é o atributo <b>Target</b> que abre algumas opções como <b>"_blank"</b> que abre o link em uma nova guia(aba) e <b>"_self"</b>que como indica a tradução ele irá abrir o link nele mesmo ou seja no proprio site, Também há como adicionar o atributo <b>Title</b>
+    assim exibe uma mensagem ao manter o mouse acima do link.</p>
+    <hr>
+
+    <h3 style="text-align:center ;"><del>Links auxiliares</del></h3>
+    <sub style="color:teal;"> Dio</sub>
+    
+    <footer style="text-align:center ;"><strong><i><a href="https://www.w3schools.com/html/default.asp">https://www.w3schools.com/html/default.asp</a></i></strong></footer>
+    <footer style="text-align:center ;"><i><strong><a href="https://www.w3schools.com/TAgs/default.asp">https://www.w3schools.com/TAgs/default.asp</a></strong></i></footer>   
+    <h2 style="text-align:center ;"><a href="#inicio" >
+        <img src="./assets/home.png.png" alt="Inicio da página" style="opacity: 50%;">
+    </a></h2>
+    
+</body>
+</html>
